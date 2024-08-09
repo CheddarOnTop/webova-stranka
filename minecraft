@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Minecraft Update Tracker</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+
+            <ul>
+
+                <li><a href="#update-history">Update History</a></li>
+
+                <li><a href="#tutorials">Tutorials and Guides</a></li>
+
+                <li><a href="#news">News and Announcements</a></li>
+
+                <li><a href="#community">Community Forum</a></li>
+
+                <li><a href="#resources">Resources</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section id="update-history">
+
+            <h2>Update History</h2>
+
+            <ul>
+
+                <li>
+
+                    <h3>Minecraft 1.20</h3>
+
+                    <p>Release Date: June 7, 2023</p>
+
+                    <p>Brief summary of changes and features added...</p>
+
+                    <a href="https://minecraft.fandom.com/wiki/Java_Edition_1.20">Full Changelog</a>
+
+                    <ul>
+
+                        <li>Added New Cherry Blossom biom</li>
+
+                        <li>Added new structure: Trail Ruines</li>
+
+                        <li>Added new mobs: Camel and Sniffer</li>
+
+                    </ul>
+
+                </li>
+
+                <li>
+
+                    <h3>Minecraft 1.19</h3>
+
+                    <p>Release Date: June 7, 2022</p>
+
+                    <p>Brief summary of changes and features added...</p>
+
+                    <a href="https://minecraft.fandom.com/wiki/Java_Edition_1.19">Full Changelog</a>
+
+                    <ul>
+
+                        <li>Added new mobs: Warden, Frog...</li>
+
+                        <li>Added Deepdark and Mangrove biom</li>
+
+                        <li>Added new structure: Ancient City</li>
+
+                    </ul>
+
+                </li>
+
+                <!-- more update history list items... -->
+
+            </ul>
+
+        </section>
+
+        <section id="tutorials">
+
+            <h2>Tutorials and Guides</h2>
+
+            <ul>
+
+                <li>
+
+                    <h3>Updating Minecraft via the Launcher</h3>
+
+                    <p>Step-by-step guide on how to update Minecraft...</p>
+
+                    <a href="file:///home/student/minecraft%20update.html">Read More</a>
+
+                    <img src="update-launcher.png" alt="Updating Minecraft via the Launcher">
+
+                </li>
+
+                <li>
+
+                    <h3>Creating a Minecraft Server</h3>
+
+                    <p>Step-by-step guide on how to create a Minecraft server...</p>
+
+                    <a href="file:///home/student/minecraft%20server.html">Read More</a>
+
+                    <img src="create-server.png" alt="Creating a Minecraft Server">
+
+                </li>
+
+                <!-- more tutorial list items... -->
+
+            </ul>
+
+        </section>
+
+        <section id="news">
+
+            <h2>News and Announcements</h2>
+
+            <ul>
+
+                <li>
+
+                    <h3>Minecraft 1.21 Update: Tricky Trials </h3>
+
+                    <p>Brief summary of changes and features added...</p>
+
+                    <a href="https://www.minecraft.net/en-us/article/play-tricky-trials-update-today">Read More</a>
+
+                    <img src="update-1.19.png" alt="Minecraft 1.21 Update!">
+
+                </li>
+
+                <li>
+
+                    <h3>Minecraft's 15th anniversary!</h3>
+
+                    <p>Celebrate 15 years of Minecraft, free anniversary add-on...</p>
+
+                    <a href="https://www.minecraft.net/en-us/15th-anniversary">Read More</a>
+
+                    <img src="dungeons-update.png" alt="Minecraft is 15 years now!">
+
+                </li>
+
+                <!-- more news list items... -->
+
+            </ul>
+
+        </section>
+
+        <section id="community">
+
+            <h2>Community Forum</h2>
+
+            <p>Discuss Minecraft updates with the community...</p>
+
+            <a href="https://www.minecraftforum.net/forums/minecraft-java-edition/discussion">Join the Discussion</a>
+
+            <ul>
+
+                <li><a href="https://www.minecraftforum.net/forums/minecraft-java-edition/discussion">General Discussion</a></li>
+
+                <li><a href="https://feedback.minecraft.net/hc/en-us">Update Feedback</a></li>
+
+                <li><a href="https://bugs.mojang.com/secure/Dashboard.jspa">Bug Reports</a></li>
+
+            </ul>
+
+        </section>
+
+        <section id="resources">
+
+            <h2>Resources</h2>
+
+            <ul>
+
+                <li>
+
+                    <h3>Minecraft Official Website</h3>
+
+                    <a href="https://www.minecraft.net/en-us">Visit Website</a>
+
+                </li>
+
+                <li>
+
+                    <h3>Minecraft Wiki</h3>
+
+                    <a href="https://minecraft.wiki/">Visit Wiki</a>
+
+                </li>
+
+                <li>
+
+                    <h3>Minecraft Forums</h3>
+
+                    <a href="https://www.minecraftforum.net/">Visit Forums</a>
+
+
+
+
+
+
+
+
+
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+
+header {
+
+    background-color: #333;
+
+    color: #fff;
+
+    padding: 1em;
+
+    text-align: center;
+
+}
+
+
+header nav ul {
+
+    list-style: none;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+
+header nav ul li {
+
+    display: inline-block;
+
+    margin-right: 20px;
+
+}
+
+
+header nav a {
+
+    color: #fff;
+
+    text-decoration: none;
+
+}
+
+
+main {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    padding: 2em;
+
+}
+
+
+section {
+
+    background-color: #f7f7f7;
+
+    padding: 1em;
+
+    margin-bottom: 20px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+h2 {
+
+    margin-top: 0;
+
+}
+
+
+ul {
+
+    list-style: none;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+
+li {
+
+    margin-bottom: 10px;
+
+}
+
+
+a {
+
+    text-decoration: none;
+
+    color: #337ab7;
+
+}
+
+
+a:hover {
+
+    color: #23527c;
+
+}
+
+
+footer {
+
+    background-color: #333;
+
+    color: #fff;
+
+    padding: 1em;
+
+    text-align: center;
+
+    clear: both;
+
+}
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>How to Update Minecraft</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1 id="minecraft-title">Minecraft <span>Update Tracker</span></h1>
+
+        <nav>
+
+            <ul>
+
+                <li><a href="#update-history">Update History</a></li>
+
+                <li><a href="#tutorials">Tutorials and Guides</a></li>
+
+                <li><a href="#news">News and Announcements</a></li>
+
+                <li><a href="#community">Community Forum</a></li>
+
+                <li><a href="#resources">Resources</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section id="update-minecraft">
+
+            <h2>How to Update Minecraft</h2>
+
+            <p>Keeping your Minecraft game up to date is important to ensure you have access to the latest features and bug fixes. Follow these steps to update Minecraft:</p>
+
+            <ol>
+
+                <li>
+
+                    <h3>Check for Updates</h3>
+
+                    <p>Open the Minecraft launcher and click on the "Options" button.</p>
+
+                    <img src="launcher-options.png" alt="Minecraft launcher options">
+
+                </li>
+
+                <li>
+
+                    <h3>Click on "Check for Updates"</h3>
+
+                    <p>In the options menu, click on the "Check for Updates" button.</p>
+
+                    <img src="check-for-updates.png" alt="Check for updates button">
+
+                </li>
+
+                <li>
+
+                    <h3>Download the Update</h3>
+
+                    <p>If an update is available, click on the "Download" button to download the update.</p>
+
+                    <img src="download-update.png" alt="Download update button">
+
+                </li>
+
+                <li>
+
+                    <h3>Wait for the Update to Install</h3>
+
+                    <p>Wait for the update to download and install. This may take a few minutes.</p>
+
+                    <img src="update-installing.png" alt="Update installing">
+
+                </li>
+
+                <li>
+
+                    <h3>Launch Minecraft</h3>
+
+                    <p>Once the update is installed, click on the "Play" button to launch Minecraft.</p>
+
+                    <img src="launch-minecraft.png" alt="Launch Minecraft button">
+
+                </li>
+
+            </ol>
+
+            <p>That's it! You should now be running the latest version of Minecraft.</p>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>How to Make a Minecraft Server</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1 id="minecraft-title">Minecraft <span>Update Tracker</span></h1>
+
+        <nav>
+
+            <ul>
+
+                <li><a href="#update-history">Update History</a></li>
+
+                <li><a href="#tutorials">Tutorials and Guides</a></li>
+
+                <li><a href="#news">News and Announcements</a></li>
+
+                <li><a href="#community">Community Forum</a></li>
+
+                <li><a href="#resources">Resources</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section id="create-server">
+
+            <h2>How to Make a Minecraft Server</h2>
+
+            <p>Creating a Minecraft server allows you to play with friends and family online. Follow these steps to set up your own Minecraft server:</p>
+
+            <ol>
+
+                <li>
+
+                    <h3>Download the Minecraft Server Software</h3>
+
+                    <p>Download the Minecraft server software from the official Minecraft website.</p>
+
+                    <a href="https://www.minecraft.net/en/download/server">Download Now</a>
+
+                </li>
+
+                <li>
+
+                    <h3>Create a New Folder for Your Server</h3>
+
+                    <p>Create a new folder on your computer to store your Minecraft server files.</p>
+
+                    <img src="create-folder.png" alt="Create a new folder">
+
+                </li>
+
+                <li>
+
+                    <h3>Extract the Server Software</h3>
+
+                    <p>Extract the Minecraft server software to the new folder you created.</p>
+
+                    <img src="extract-software.png" alt="Extract the server software">
+
+                </li>
+
+                <li>
+
+                    <h3>Configure Your Server</h3>
+
+                    <p>Edit the `server.properties` file to configure your server settings.</p>
+
+                    <code>server.properties</code>
+
+                    <pre>
+
+server-name=My Minecraft Server
+
+gamemode=survival
+
+difficulty=normal
+
+max-players=20
+
+                    </pre>
+
+                </li>
+
+                <li>
+
+                    <h3>Start Your Server</h3>
+
+                    <p>Run the `start.bat` file (on Windows) or `start.sh` file (on Mac/Linux) to start your Minecraft server.</p>
+
+                    <img src="start-server.png" alt="Start your server">
+
+                </li>
+
+                <li>
+
+                    <h3>Connect to Your Server</h3>
+
+                    <p>Open Minecraft and connect to your server by entering the server address and port number.</p>
+
+                    <img src="connect-server.png" alt="Connect to your server">
+
+                </li>
+
+            </ol>
+
+            <p>That's it! You now have a Minecraft server up and running. Invite your friends to join and start playing together.</p>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
